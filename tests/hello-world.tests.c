@@ -55,5 +55,5 @@ Test(hello_world, reverse_greet)
   reverse_greet("Luis");
   fflush(stdout);
 
-  cr_assert_stdout_eq_str("Hello naesoJ!Hello navI!Hello siuL");
+  cr_assert_stdout_eq_str("Hello naesoJ!Hello navI!Hello siuL!");
 }
