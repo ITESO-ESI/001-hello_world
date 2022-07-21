@@ -1,6 +1,9 @@
-name: 'Build and Test'
+name: 'Test lib implementation'
 
-on: push
+on:
+  push:
+    branches:
+      - feedback
 
 jobs:
   test-all:
